@@ -16,9 +16,9 @@ public class UjiKendaraan {
 
         Bicycle sepeda = new Bicycle();
         System.out.println(sepeda.speed);
-		System.out.println(sepeda.color);
+	System.out.println(sepeda.color);
         sepeda.ringBell();
-		sepeda.turnRight();
+	sepeda.turnRight();
 
         MotorVehicle motor = new MotorVehicle(2, "G 1 B");
         System.out.println(motor.getSizeofEngine());
